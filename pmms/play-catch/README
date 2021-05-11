@@ -1,0 +1,9 @@
+An HTML5 canvas hockey game written for a client.
+
+Controls:
+
+s: start
+p: pause
+r: resume
+left arrow: move left
+right arrow: move right
