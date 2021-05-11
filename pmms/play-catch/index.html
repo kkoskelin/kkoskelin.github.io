@@ -13,8 +13,8 @@
         body {
             margin: 5px;
             background-color: #000;
-            font-family: Arial;
             color: white;
+            font-family: sans-serif;
         }
 
         #game-container {
@@ -34,7 +34,11 @@
 </head>
 
 <body>
-    <div id="start-container"><button id="start-button" onClick="playCatch()">Begin Game</button></div>
+    <div id="start-container"><button id="start-button" onClick="playCatch()">Begin Game</button>
+        <!--
+            Try adding "?minecraft" at the end of the URL to try a different game!
+        -->
+    </div>
     <div id="game-container">
         <canvas id="canvas" height="773" width="1000">
             <p>Your browser doesn't support the HTML5 Canvas. Please upgrade your browser!</p>
